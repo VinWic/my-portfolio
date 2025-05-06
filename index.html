@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vinodya Wickramarathna - QA Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #1e3a8a, #3b82f6);
+      color: #fff;
+      overflow: hidden;
+      min-height: 100vh;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .hero img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 4px solid #ffffffcc;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .nav-buttons a,
+    .footer-nav a {
+      display: inline-block;
+      background: white;
+      color: #1e3a8a;
+      padding: 0.6rem 1.2rem;
+      margin: 0.3rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .nav-buttons a:hover,
+    .footer-nav a:hover {
+      background: #dbeafe;
+    }
+
+    .section {
+      display: none;
+      background: #f9fafb;
+      color: #1f2937;
+      padding: 2rem;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+
+    h2 {
+      color: #1e3a8a;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+
+    .contact-icons a {
+      margin-right: 15px;
+      font-size: 1.5rem;
+      color: #1e3a8a;
+      text-decoration: none;
+    }
+
+    .contact-icons a:hover {
+      color: #2563eb;
+    }
+
+    .footer-nav {
+      background: #1e40af;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    .footer-nav a {
+      margin: 0 10px;
+      font-size: 0.9rem;
+    }
+
+    .close-btn {
+      float: right;
+      background: #1e3a8a;
+      color: white;
+      padding: 0.3rem 0.8rem;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .close-btn:hover {
+      background: #1e40af;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero" id="hero">
+    <img src="photo.jpg" class="profile-photo" />
+    <!-- Replace image src with your picture link -->
+    <h1>I’m <span style="color:#93c5fd">Vinodya Wickramarathna</span></h1>
+    <p>ISTQB Certified | 4+ Years Experience | QA Engineer</p>
+    <div class="nav-buttons">
+      <a href="#" onclick="showSection('about')">About Me</a>
+      <a href="#" onclick="showSection('work')">Recent Work</a>
+      <a href="#" onclick="showSection('skills')">Skills</a>
+      <a href="#" onclick="showSection('contact')">Get in Touch</a>
+    </div>
+  </div>
+
+   <!-- About -->
+  <div class="section" id="about">
+    <a class="close-btn" onclick="hideSection()">Close</a>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>QA Engineer with 4 years of hands-on experience in software quality assurance across banking, finance, and telecommunications domains. Skilled in both manual and automation testing, with a strong focus on delivering high-quality applications through functional, regression, cross-browser, and mobile testing (Android & iOS).Experienced in testing web and mobile applications for clients across Sri Lanka, Australia, Japan,UK, Uganda, Nepal, Indonesia, and other global regions. Involved in large-scale projects including worldwide banking systems, digital payment gateways, and risk management platforms.Passionate about quality, collaboration, and continuous improvement, with a proven ability to work in Agile environments and drive test excellence.</p>
+    </div>
+    <div class="card">
+      <strong>Resume:</strong><br>
+      <a href="#">Download my CV (PDF)</a>
+    </div>
+  </div>
+  
+  <!-- Work -->
+  <div class="section" id="work">
+    <a class="close-btn" onclick="hideSection()">Close</a>
+    <h2>Recent Work</h2>
+	
+<div class="card" style="padding: 1.5rem; margin: 1rem 0; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <h3>Work Experience</h3><br>
+
+  <h4>Hitachi Payment Solutions –  Level 2, 240 High Level Rd, Colombo 00600</h4>
+ <p style="text-align: justify;">
+  <em>
+    Hitachi Digital Payment Solutions Ltd., headquartered in Colombo, Sri Lanka, is a pioneering fintech company established in 2000. 
+    As a subsidiary of Hitachi Ltd., Japan, the company specializes in delivering innovative digital payment solutions that empower banks and financial service providers across global markets. 
+    Their offerings include a comprehensive suite of services such as cards, eWallets, fraud management, loyalty programs, mobile payments, POS solutions, remittance services, and virtual banking. 
+    Leveraging their proprietary ibSuite™ platform, Hitachi Digital Payment Solutions ensures secure and seamless financial transactions, adapting swiftly to technological advancements and compliance requirements. 
+    The company's commitment to innovation and excellence has positioned it as a leader in transforming the digital payment landscape in Sri Lanka and beyond. 
+    Visit the official website: 
+    <a href="https://hitachi-dps.com" target="_blank" style="color: #007bff;">hitachi-dps.com</a>.
+  </em>
+</p><br>
+  <p><strong>Employment Duration:</strong> July 2023 – Present</p>
+  <p><strong>Promotions:</strong> Started as <strong>Trainee QA Engineer</strong> → Promoted to <strong>Associate QA Engineer</strong> → Currently <strong>QA Engineer</strong></p>
+
+<br>
+  <h5>My Role:</h5>
+  <p style="text-align: justify;">
+    As a QA Engineer, I am responsible for ensuring the quality and reliability of digital payment and banking solutions. My focus is on validating functionality, performance, and user experience through detailed test strategies and collaboration across teams. I have progressively grown from a Trainee to Associate QA Engineer, and now to QA Engineer.
+  </p>
+<br>
+  <h5>Key Responsibilities:</h5>
+  <ul>
+    <li>Conducting manual testing of mobile [ Android/IOS], web, ATM, and POS systems to ensure functionality across platforms.</li>
+    <li>Performing regression, UI, and database testing to maintain consistent user experience and data integrity.</li>
+    <li>Defect tracking, bug reporting, and test case management using Zoho</li>
+    <li>Conducting UI/UX testing to ensure smooth customer experience.</li>
+    <li>Collaborating with cross-functional teams and conducting on-site client support and training for UAT and deployments.</li>
+    <li>Test caes writing using Test Link and preparing detailed QA documentation (test reports, release notes).</li>
+  </ul>
+</div>
+
+<div class="card" style="padding: 1.5rem; margin: 1rem 0; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+<h4>Camms, a Riskonnect Company –  Level 13, Echelon Square, World Trade Centre, Bank of Ceylon Mawatha, Colombo 01 00100</h4>
+ <p style="text-align: justify;">
+  <em>
+Camms is a global provider of enterprise performance management and governance, risk, and compliance (GRC) software solutions. Founded in 1996 and headquartered in Melbourne, Australia, Camms offers integrated solutions in risk, strategy, projects, and people to help organizations make informed decisions and achieve their goals .With over 25 years of experience, Camms has developed a suite of products that enable businesses to digitize and streamline workflows, providing effective information flow, visibility, and transparency. Their software supports strategic planning, execution, monitoring, and reporting on operational and strategic goals .Camms serves a diverse clientele across five continents, including sectors such as government, healthcare, education, and financial services. Their commitment to innovation and customer success has positioned them as a trusted partner for organizations seeking to enhance their performance and compliance capabilities.
+In 2024, Camms was acquired by Riskonnect, a leading provider of integrated risk management solutions, further expanding their global reach and product offerings.
+<br>Visit the official website: 
+    <a href="https://cammsgroup.com/" target="_blank" style="color: #007bff;">cammsgroup.com/</a>.
+  </em>
+</p><br>
+  <p><strong>Employment Duration:</strong> July 2022 – July 2023</p>
+  <p><strong>Promotions:</strong> Joined as <strong>Intern QA Automation Engineer</strong></p>
+
+<br>
+  <h5>My Role:</h5>
+  <p style="text-align: justify;">
+    As a QA Engineer, I play a key role in validating software quality by designing and executing test cases, reviewing requirements, and ensuring smooth collaboration across teams within an Agile environment.
+  </p>
+<br>
+  <h5>Key Responsibilities:</h5>
+  <ul>
+    <li>Prioritize and manage test tasks while validating project requirements.</li>
+    <li>Design and perform WGA, Regression, UI, and Smoke Testing.</li>
+    <li>Defect tracking, bug reporting, and test case management using JIRA.</li>
+    <li>Conduct web automation testing using TestCafe and JavaScript.</li>
+    <li>Collaborate with cross-functional teams in Agile workflows.</li>
+  </ul>
+</div>
+
+<div class="card" style="padding: 1.5rem; margin: 1rem 0; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+<h4>VizuaMatix Software Company –  60, School Lane, Nawala, 11107</h4>
+ <p style="text-align: justify;">
+  <em>
+    VizuaMatix is a Sri Lankan IT company specializing in cutting-edge enterprise solutions for the telecommunications and financial sectors. With over 15 years of experience, the company has delivered more than 90 projects, serving over 10 million end customers and processing up to 150 million transactions per day on a single application. Their product portfolio includes vxFRMS, a financial risk management system utilizing machine learning for predictive analytics; vxSafenet, a digital wellbeing platform designed for telecom operators; and vxAnalytics, an end-to-end data analytics platform offering sub-second queries against billions of data records.VizuaMatix has been recognized for its innovative solutions, winning awards such as the NBQSA 2022 for Best in FinTech and ICT Network Solutions, and has represented Sri Lanka at international events like GITEX in Dubai and the FinTech Festival in Singapore. The company is headquartered in Sri Jayawardenepura Kotte, Sri Lanka, with additional offices in Nugegoda, and has a presence in Singapore and Melbourne through its subsidiaries. 
+    Visit the official website: 
+    <a href="https://www.vizuamatix.com/" target="_blank" style="color: #007bff;">vizuamatix.com/</a>.
+  </em>
+</p><br>
+  <p><strong>Employment Duration:</strong> October 2021 – June 2022</p>
+  <p><strong>Promotions:</strong> Started as <strong>Intern Manual QA Engineer</strong> → Promoted to <strong>Trainee QA Engineer</strong></p>
+
+<br>
+  <h5>My Role:</h5>
+  <p style="text-align: justify;">
+    As a Trainee QA, I focused on foundational skills in database testing, bug tracking, and quality documentation, while actively learning QA tools and processes.
+  </p>
+<br>
+  <h5>Key Responsibilities:</h5>
+  <ul>
+    <li>Practiced SQL queries, basic Unix commands, and database configuration.</li>
+    <li>Reported defects using GitLab and analyzed logs for troubleshooting.</li>
+    <li>Performed regression testing and created QA documentation (e.g., test summary, release notes).</li>
+    <li>Participated in knowledge transfer (KT) sessions on API and performance testing.</li>
+  </ul>
+</div>
+	
+ <div class="card">
+  <strong>Challenges & Solutions as QA Engineer:</strong>
+  <ul><br>
+    <li><strong>Unclear Requirements:</strong> Ask questions early, participate in requirement reviews, and use user stories for clarity.</li>
+    <li><strong>Tight Deadlines:</strong> Prioritize high-risk test cases, automate repetitive tasks, and communicate risks to the team.</li>
+    <li><strong>Frequent Requirement Changes:</strong> Adapt test cases quickly and work closely with developers.</li>
+    <li><strong>Limited Test Data:</strong> Create realistic test data sets or request production-like data from Dev/DB teams.</li>
+    <li><strong>Environment Issues:</strong> Coordinate with DevOps early, report issues immediately, and have backup environments if possible.</li>
+    <li><strong>High Number of Bugs Late in Cycle:</strong> Perform early testing (shift-left), do risk-based testing, and focus on key functionalities.</li>
+    <li><strong>Poor Communication Between Teams:</strong> Join daily stand-ups, use JIRA/Slack effectively, and document all findings clearly.</li>
+    <li><strong>Lack of Domain Knowledge:</strong> Study the product, read documentation, ask domain experts, and take notes during demos.</li>
+    <li><strong>Limited Time for Regression Testing:</strong> Automate regression cases, run smoke tests first, and continuously update regression suite.</li>
+  </ul>
+</div>
+
+	
+    <div class="card">
+      <strong>Certifications:</strong>
+      <ul>
+        <li>ISTQB Certified Tester Foundation Level v4.0</li>
+        <li>Java Application Development using JavaSE – UCSC</li>
+		<li>Software QA Automation – UCSC</li>
+        <li>Graphic Design – Kelaniya University</li>
+      </ul>
+    </div>
+    <div class="card">
+      <strong>Blog:</strong><br>
+      <a href="https://thetesterhubvinodya.blogspot.com/" target="_blank">The Tester Hub Blog</a>
+    </div>
+  </div>
+  
+  <!-- Skills -->
+  <div class="section" id="skills">
+    <a class="close-btn" onclick="hideSection()">Close</a>
+    <h2>Skills</h2>
+    <div class="card">
+      <strong>Technical Skills:</strong><br>
+       
+	   <h3>🔹 Jira:</h3>
+	   <ul><br>
+    <li> Test case management, defect tracking, Agile workflow</li>
+	</ul><br>
+		<h3>🔹 Azure DevOps:</h3>
+	   <ul><br>
+    <li> CI/CD pipelines, test plans, Agile boards </li>
+	</ul><br>
+	
+		<h3>🔹 MS Office:</h3>
+	   <ul><br>
+    <li> Test documentation, reporting, traceability matrix</li>
+	</ul><br>
+	
+		<h3>🔹 TestLink:</h3>
+	   <ul><br>
+    <li> Manual test case management and execution</li>
+	</ul><br>
+		<h3>🔹 GitLab:</h3>
+	   <ul><br>
+    <li> For bug reporting</li>
+	</ul><br>
+	
+		<h3>🔹 Postman:</h3>
+	   <ul>
+    <li> REST API testing and automation</li>
+	</ul><br>
+   
+   		<h3>🔹 JMeter:</h3>
+	   <ul><br>
+    <li> Performance and load testing</li>
+	</ul><br>
+	
+		<h3>🔹 Figma:</h3>
+	   <ul><br>
+    <li> UI/UX design review and validation</li>
+	</ul><br>
+	
+	    <h3>🔹 Selenium:</h3>
+	   <ul><br>
+    <li> UI automation testing with WebDriver and TestNG</li>
+	</ul><br>
+	
+		<h3>🔹 TestCafé:</h3>
+	   <ul><br>
+    <li> JavaScript/TypeScript web automation</li>
+	</ul><br>
+	
+		<h3>🔹 puTTY:</h3>
+	   <ul><br>
+    <li> SSH connection, server access, log checking</li>
+	</ul><br>
+	
+		<h3>🔹 MySQL:</h3>
+	   <ul><br>
+    <li> SQL queries and database validation</li>
+	</ul><br>
+	
+		<h3>🔹 DBeaver (Oracle):</h3>
+	   <ul><br>
+    <li> Database management and SQL querying</li>
+	</ul><br>
+	
+		<h3>🔹 Power BI:</h3>
+	   <ul><br>
+    <li> Reporting dashboards and data visualization</li>
+	</ul><br>
+	
+		<h3>🔹 BrowserStack:</h3>
+	   <ul><br>
+    <li> Cross-browser and mobile testing in the cloud</li>
+	</ul><br>
+	
+ 		<h3>🔹 Zoho Tool:</h3>
+	   <ul><br>
+    <li> Bug tracking, test management</li>
+	</ul><br>
+	
+		<h3>🔹 Google Lighthouse:</h3>
+	   <ul><br>
+    <li> Performance, SEO, accessibility audits</li>
+	</ul><br>
+	
+		<h3>🔹 TestNG:</h3>
+	   <ul><br>
+    <li> Java-based test framework for test automation</li>
+	</ul><br>
+
+
+    </div>
+    <div class="card">
+      <strong>Soft Skills:</strong><br>
+ <section>
+
+  <div class="card">
+    <h3>🔹 Communication & Collaboration</h3>
+    <ul>
+      <li>Verbal communication</li>
+      <li>Written communication</li>
+      <li>Active listening</li>
+      <li>Team collaboration</li>
+      <li>Cross-functional teamwork</li>
+      <li>Stakeholder communication</li>
+      <li>Conflict resolution</li>
+      <li>Interpersonal skills</li>
+      <li>Presentation skills</li>
+      <li>Fluent documentation</li>
+    </ul>
+
+    <h3>🔹 Critical Thinking & Problem Solving</h3>
+    <ul>
+      <li>Analytical thinking</li>
+      <li>Problem-solving</li>
+      <li>Decision-making</li>
+      <li>Root cause analysis</li>
+      <li>Risk assessment</li>
+      <li>Bug triaging</li>
+      <li>Quality mindset</li>
+      <li>Attention to detail</li>
+      <li>Test scenario brainstorming</li>
+      <li>Investigative thinking</li>
+    </ul>
+
+    <h3>🔹 Work Ethic & Personal Traits</h3>
+    <ul>
+      <li>Time management</li>
+      <li>Adaptability</li>
+      <li>Accountability</li>
+      <li>Self-motivation</li>
+      <li>Resilience</li>
+      <li>Curiosity</li>
+      <li>Patience</li>
+      <li>Empathy</li>
+      <li>Dependability</li>
+      <li>Proactiveness</li>
+    </ul>
+
+    <h3>🔹 Leadership & Growth</h3>
+    <ul>
+      <li>Mentorship</li>
+      <li>Knowledge sharing</li>
+      <li>Coaching testers</li>
+      <li>Ownership</li>
+      <li>Strategic thinking</li>
+      <li>Initiative</li>
+      <li>Team leadership</li>
+      <li>Feedback handling</li>
+      <li>Result-oriented</li>
+      <li>Emotional intelligence</li>
+    </ul>
+
+    <h3>🔹 Agile & Professional Environment</h3>
+    <ul>
+      <li>Agile mindset</li>
+      <li>Scrum collaboration</li>
+      <li>Fast learner</li>
+      <li>Sprint planning participation</li>
+      <li>Continuous improvement</li>
+      <li>Remote work discipline</li>
+      <li>Multicultural communication</li>
+      <li>Client-focused</li>
+      <li>Requirement understanding</li>
+      <li>Flexibility under pressure</li>
+    </ul>
+  </div>
+</section>
+    </div>
+  </div>
+
+
+  <!-- Contact -->
+  <div class="section" id="contact">
+    <a class="close-btn" onclick="hideSection()">Close</a>
+    <h2>Contact Me</h2><br>
+    <p><strong>Phone:</strong> +94 76 399 67 33</p><br>
+	
+    <p><strong>Email:</strong> vinodyawickramarathna22@gmail.com</p><br>
+    <div class="contact-icons">
+      <a href="https://www.linkedin.com/in/vinodya-wickramarathna" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:vinodyawickramarathna22@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+94763996733"><i class="fas fa-phone"></i></a>
+      <a href="https://github.com/VinWic/my-portfolio" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+
+<!-- Footer Navigation -->
+<div class="footer-nav" id="footerNav" style="display: none;">
+  <div style="margin-bottom: 0.3rem;">
+    <a href="#" onclick="showSection('about')">About Me</a>
+    <a href="#" onclick="showSection('work')">Recent Work</a>
+    <a href="#" onclick="showSection('skills')">Skills</a>
+    <a href="#" onclick="showSection('contact')">Get in Touch</a>
+  </div><br>
+  <div style="font-size: 0.75rem; color: #cbd5e1; margin-top: 0.2rem;">
+    &copy; 2025 Vinodya Wickramarathna - QA Portfolio
+  </div>
+</div>
+
+  <script>
+    function showSection(id) {
+      document.getElementById('hero').style.display = 'none';
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(sec => sec.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+      document.getElementById('footerNav').style.display = 'block';
+      document.body.style.overflow = 'auto';
+    }
+
+    function hideSection() {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(sec => sec.style.display = 'none');
+      document.getElementById('hero').style.display = 'flex';
+      document.getElementById('footerNav').style.display = 'none';
+      document.body.style.overflow = 'hidden';
+    }
+  </script>
+
+</body>
+</html>
